@@ -1,0 +1,26 @@
+nav {
+  background-color: #919076;
+  padding: 10px;
+}
+
+nav a {
+  color: rgb(142, 188, 248);
+  text-decoration: none;
+  margin-right: 10px;
+  border-bottom: 2px solid transparent;
+}
+
+nav a.current,
+nav a:hover { color: aliceblue;
+  border-bottom-color: aliceblue;
+}
+
+nav a.home:visited {
+  color: red; /* Cambia el color del texto para el enlace "Home" cuando se ha visitado */
+}
+
+nav a.current{
+  color: rgb(0, 0, 0);
+}
+nav a:hover:visited {
+  color: yellow; /* Cambia el color del texto para el enlace visitado cuando está resaltado */}
