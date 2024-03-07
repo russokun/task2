@@ -1,26 +1,113 @@
-nav {
-  background-color: #919076;
-  padding: 10px;
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: relative;
+  text-align: center;
+  height: 300px; /* Ajusta la altura del header según tus necesidades */
+  overflow: hidden; /* Evita que el contenido del header sobresalga */
+  
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Hace que la imagen de fondo cubra completamente el contenedor */
+}
+
+h1 {
+  color: #fbfd84; /* Color del texto del título */
+  position: absolute;
+  z-index: 2; /* Asegura que el h1 esté sobre la imagen de fondo */
+  left: 3%;
+  font-size: 500%;
+  text-shadow: 
+    -2px -2px 0 #FFAD60,  
+    2px -2px 0 #FFAD60,
+    -2px 2px 0 #FFAD60,
+    2px 2px 0 #FFAD60;
+}
+
+h2 {text-align: center;
+  background-color: #4bb9ab;
+  color: #000000;
+  padding: 20px;
+  margin-top: 3px;
+  margin-bottom: 5px;
+  font-size:xx-large
+}
+
+.logo-container {
+  position: absolute;
+  top: 28%;
+  right: 15%;
+  z-index: 1;
+}
+
+.logo-container img {
+  width: 190px;
+  /* Otros estilos necesarios para el logo */
+}
+
+nav{
+  max-width: 300px;
+  background-color: #FFB367;
+}
+
+a{
+  font-size: 200%;
+  display: block; /* Cambia el estilo de display a bloque */
+  padding: 40px;   /* Ajusta el espaciado según tus necesidades */
+  text-decoration: none; /* Quita la decoración de subrayado predeterminada para los enlaces */
+  max-width: 70px;
 }
 
 nav a {
-  color: rgb(142, 188, 248);
   text-decoration: none;
-  margin-right: 10px;
-  border-bottom: 2px solid transparent;
+  color: #FBF6F0; /* Color predeterminado del texto del enlace */
+  text-decoration: underline
 }
 
-nav a.current,
-nav a:hover { color: aliceblue;
-  border-bottom-color: aliceblue;
+#alargo{
+  max-width: 182.3px;
 }
 
-nav a.home:visited {
-  color: red; /* Cambia el color del texto para el enlace "Home" cuando se ha visitado */
+aside{
+  margin-left: 100px;
+  max-width: 100%;
 }
 
-nav a.current{
-  color: rgb(0, 0, 0);
+.contenedor-cuerpo{
+  display: flex;
+  background-color: #FFE2BC;
+  margin-top: 5px;
 }
-nav a:hover:visited {
-  color: yellow; /* Cambia el color del texto para el enlace visitado cuando está resaltado */}
+
+h3{
+  font-size: 150%;
+  margin-top: 40px;
+}
+
+aside>p{
+  font-size: 120%;
+  margin-top: 5px;
+}
+
+nav a.active {
+  color: #AEE6E6; /* Cambia el color del texto del enlace activo */
+  font-weight: bold; /* Puedes agregar negrita para mayor énfasis */
+  text-decoration: none
+}
+
+p>a{
+  font-size: 100%;
+  display: inline;
+  padding: 4px;
+}
+
+#conteinerr{
+  margin-left: 50px;
+  margin-top: 50px;
+}
