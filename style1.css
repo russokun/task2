@@ -1,26 +1,27 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: antiquewhite;
 }
 
 header {
   position: relative;
   text-align: center;
-  height: 300px; /* Ajusta la altura del header según tus necesidades */
-  overflow: hidden; /* Evita que el contenido del header sobresalga */
+  height: 300px; 
+  overflow: hidden; 
   
 }
 
 img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Hace que la imagen de fondo cubra completamente el contenedor */
+  object-fit: cover; 
 }
 
 h1 {
-  color: #fbfd84; /* Color del texto del título */
+  color: #fbfd84; 
   position: absolute;
-  z-index: 2; /* Asegura que el h1 esté sobre la imagen de fondo */
+  z-index: 2; 
   left: 3%;
   font-size: 500%;
   text-shadow: 
@@ -32,11 +33,11 @@ h1 {
 
 h2 {text-align: center;
   background-color: #4bb9ab;
-  color: #000000;
-  padding: 20px;
+  color: #f89233;
+  padding: 50px;
   margin-top: 3px;
   margin-bottom: 5px;
-  font-size:xx-large
+  font-size:40px
 }
 
 .logo-container {
@@ -48,7 +49,6 @@ h2 {text-align: center;
 
 .logo-container img {
   width: 190px;
-  /* Otros estilos necesarios para el logo */
 }
 
 nav{
@@ -58,15 +58,15 @@ nav{
 
 a{
   font-size: 200%;
-  display: block; /* Cambia el estilo de display a bloque */
-  padding: 40px;   /* Ajusta el espaciado según tus necesidades */
-  text-decoration: none; /* Quita la decoración de subrayado predeterminada para los enlaces */
+  display: block; 
+  padding: 40px;   
+  text-decoration: none; 
   max-width: 70px;
 }
 
 nav a {
   text-decoration: none;
-  color: #FBF6F0; /* Color predeterminado del texto del enlace */
+  color: #FBF6F0;
   text-decoration: underline
 }
 
@@ -88,6 +88,7 @@ aside{
 h3{
   font-size: 150%;
   margin-top: 40px;
+  color: brown;
 }
 
 aside>p{
@@ -96,8 +97,8 @@ aside>p{
 }
 
 nav a.active {
-  color: #AEE6E6; /* Cambia el color del texto del enlace activo */
-  font-weight: bold; /* Puedes agregar negrita para mayor énfasis */
+  color: #AEE6E6;
+  font-weight: bold; 
   text-decoration: none
 }
 
@@ -110,4 +111,14 @@ p>a{
 #conteinerr{
   margin-left: 50px;
   margin-top: 50px;
+}
+
+footer{
+  text-align: center;
+  background-color: #4bb9ab;
+  padding: 0;
+}
+
+h4{
+  color: #f89233;
 }
